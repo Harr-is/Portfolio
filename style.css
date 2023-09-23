@@ -1,13 +1,16 @@
-*{background-color: aliceblue;}
-/*{background-image: url('background\ image.jpeg');
-background-repeat: no-repeat;}*/
+body{
+    background-image: url(./header-shapes\ mobile@2x.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
 header{
     display: flex;
     width: 375px;
     height: 48px;
     padding: 4px 24px 4px 12px;
     align-items: flex-start;
-    justify-content: space-between;
+    gap: 199px;
 }
 .mylogo{
     display: flex;
@@ -70,3 +73,4 @@ line-height: 24px;
     width: 170.167px;
 height: 20px;
 }
+
