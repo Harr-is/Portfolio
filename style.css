@@ -3,15 +3,6 @@
   padding: 0;
   zoom: 0%;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url(./header-shapes\ mobile@2x.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .header {
   display: flex;
   width: 375px;
@@ -48,6 +39,9 @@ body {
   padding: 114px 24px;
   flex-direction: column;
   gap: 12px;
+  background-image: url(./header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .primaryText {
@@ -87,4 +81,99 @@ body {
 .social {
   width: 170.167px;
   height: 20px;
+}
+.works{
+  display: grid;
+  grid-template-rows: 697px 697px 697px 697px;
+}
+.card{
+  width: Hug (327px);
+  height: Hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image1{
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+.primarytext3{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+width: Hug (295px);
+height: Hug (80px);
+}
+.projectTitle{
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172B4D;
+}
+.frame2{
+  width: Hug (236px);
+  height: Hug (32px);
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.client{
+  width: Hug (55px);
+  height: Hug (32px);
+  padding: 8px, 0px, 8px, 0px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  styleName: Caption / 1 - Bolder;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.counter{
+  width: 8px;
+height: 18px;
+color: #C1C7D0;
+}
+.role{
+
+  display: flex;
+  padding: 8px, 0px, 8px, 0px;
+  align-items: center;
+  color: var(--neutrals-n-100, #7A869A);
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  width: 90px;
+  height: 16px;
+}
+.yearlabel{
+  width: Hug (29px);
+  height: Hug (32px);
+  padding: 8px, 0px, 8px, 0px;
+  display: flex;
+  align-items: center;
+  color: var(--neutrals-n-100, #7A869A);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  width: 29px;
+  height: 16px;
 }
