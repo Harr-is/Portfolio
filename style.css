@@ -8,10 +8,6 @@ body {
   background-color: #f5f7f8;
 }
 
-.header_headline {
-  animation: down 3s;
-}
-
 .header {
   display: flex;
   width: 375px;
