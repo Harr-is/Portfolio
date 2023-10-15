@@ -39,6 +39,10 @@ body {
   display: none;
 }
 
+.navicons {
+  display: none;
+}
+
 .menu_icon {
   display: flex;
   padding: 8px;
