@@ -7,7 +7,8 @@
 body {
   background-color: #f5f7f8;
 }
-.header_headline{
+
+.header_headline {
   animation: down 3s;
 }
 
@@ -33,7 +34,8 @@ body {
   font-weight: 700;
   line-height: 20px;
 }
-.navbar{
+
+.navbar {
   display: none;
 }
 
@@ -668,32 +670,32 @@ input:focus {
     font-weight: 700;
     line-height: 20px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
-  align-items: center;
-  gap: 8px;
+    align-items: center;
+    gap: 8px;
   }
-    .navicons{
-      display: flex;
-  padding: 10px 12px;
-  align-items: center;
-  gap: 10px;
-  color: var(--neutrals-n-600, #344563);
-  text-align: center;
-  font-family: 'Poppins',sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  cursor: pointer;
-    }
-    .navicons:hover{
-      color: #4661f8;
-    }
-    .menu_icon {
-      display: none;
-    }
-  
+
+  .navicons {
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 10px;
+    color: var(--neutrals-n-600, #344563);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+  }
+
+  .navicons:hover {
+    color: #4661f8;
+  }
+
   .menu_icon {
     display: none;
   }
@@ -1070,6 +1072,7 @@ input:focus {
     width: 100%;
     height: 40px;
   }
+
   .aboutIcons img {
     display: flex;
     padding: 8px;
